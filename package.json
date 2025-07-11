@@ -1,0 +1,24 @@
+{
+  "name": "pw--real-world-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test-registration": "npx playwright test tests/sequence/sequence-001_registration.spec.ts",
+    "test-login": "npx playwright test tests/sequence/sequence-002_login.spec.ts",
+    "test-my-account": "npx playwright test tests/sequence/sequence-003_my_account.spec.ts",
+    "test-bank-account": "npx playwright test tests/sequence/sequence-004_bank_account.spec.ts",
+    "test-transaction": "npx playwright test tests/sequence/sequence-005_transactions.spec.ts",
+    "test-personal": "npx playwright test tests/sequence/sequence-006_personal.spec.ts",
+    "test-api": "npx playwright test tests/sequence/sequence-007_api.spec.ts",
+    "test-all": "npx playwright test tests/001_registration.spec.ts tests/002_login.spec.ts tests/003_my_account.spec.ts tests/004_bank_account.spec.ts tests/005_transactions.spec.ts tests/006_personal.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.14.0",
+    "typescript": "^5.8.3"
+  }
+}
