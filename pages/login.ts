@@ -14,7 +14,7 @@ export default class LoginPage extends Commands {
   private invalidUsernameOrPassText = 'div[role="alert"] > .MuiAlert-message';
 
   constructor(page: Page) {
-    super(page); // Prosleđivanje Page objekta klasi Commands
+    super(page); 
   }
 
   async loginPageLoadingResponse(): Promise<void> {

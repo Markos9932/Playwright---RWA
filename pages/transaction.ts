@@ -13,7 +13,7 @@ export default class TransactionPage extends Commands {
   private newTransactionContainer = '.MuiListItemText-root.MuiListItemText-multiline';
 
   constructor(page: Page) {
-    super(page); // Prosleđivanje Page objekta klasi Commands
+    super(page); 
   }
 
   async populateSearchField(value: string): Promise<void> {

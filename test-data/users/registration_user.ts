@@ -1,7 +1,7 @@
 export default {
     firstName: "First_Name",
     lastName: "Last_name",
-    username: "username50",
+    username: "username52",
     password: "1112",
     confirmPass: "1112",
     passwordWrong: "111",

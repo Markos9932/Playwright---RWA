@@ -13,7 +13,7 @@ export default class BankAccountPage extends Commands {
   private bankAccountText = '[data-test="bankaccount-list"]';
 
   constructor(page: Page) {
-    super(page); // Prosleđivanje Page objekta klasi Commands
+    super(page); 
   }
 
   async verifyBankAccountHeader(text: string): Promise<void> {

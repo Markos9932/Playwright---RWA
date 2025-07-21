@@ -25,11 +25,11 @@ export default defineConfig({
   reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    baseURL: 'http://localhost:3000', // Postavite osnovni URL vaše aplikacije
-    headless: true, // Pokreće testove u headless režimu
+    baseURL: 'http://localhost:3000', 
+    headless: true, 
     viewport: { width: 1280, height: 720 },
     ignoreHTTPSErrors: true,
-    video: 'retain-on-failure', // Snima video samo ako test padne
+    video: 'retain-on-failure', 
     trace: 'on-first-retry',
   },
 

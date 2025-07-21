@@ -10,8 +10,6 @@ test.describe('Check Transactions and payments', () => {
   let loginPage: LoginPage;
   let homePage: HomePage;
   let transactionPage: TransactionPage;
-
-  // Setup executed before each test case
   test.beforeEach(async ({ loginPage: login, homePage: home, transactionPage: transaction }) => {
     loginPage = login;
     homePage = home;

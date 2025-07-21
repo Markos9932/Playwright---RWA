@@ -13,7 +13,7 @@ test.describe('Check account creating', () => {
   let bankAccountPage: BankAccountPage;
   let myAccountPage: MyAccountPage;
 
-  // Setup executed before each test case
+  
   test.beforeEach(async ({ loginPage: login, homePage: home, bankAccountPage: bankAccount,myAccountPage: myAccount }) => {
     loginPage = login;
     homePage = home;

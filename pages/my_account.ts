@@ -13,7 +13,7 @@ export default class MyAccountPage extends Commands {
   private logoutButton = '[data-test="sidenav-signout"]';
 
   constructor(page: Page) {
-    super(page); // Prosleđivanje Page objekta klasi Commands
+    super(page); 
   }
 
   async verifySidenavFirstName(expectedFirstName: string): Promise<void> {

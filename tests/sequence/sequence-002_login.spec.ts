@@ -10,7 +10,7 @@ test.describe('Check functionalities of a login form', () => {
   let loginPage: LoginPage;
   let homePage: HomePage;
 
-  // Setup executed before each test case
+ 
   test.beforeEach(async ({ loginPage: page, homePage: home }) => {
     loginPage = page;
     homePage = home;
@@ -18,10 +18,6 @@ test.describe('Check functionalities of a login form', () => {
     await loginPage.navigateToLoginPage();
   });
 
-  // Teardown executed after each test case
-  test.afterEach(async () => {
-    // Add any cleanup logic if needed
-  });
 
   test.describe('Check various scenarios', () => {
     test('Validate login form is present', async () => {

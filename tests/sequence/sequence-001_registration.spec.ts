@@ -6,23 +6,12 @@ import RegistrationPage from '../../pages/registration';
 test.describe('Check functionalities of a registration form', () => {
   let registrationPage: RegistrationPage;
 
-  // Setup executed before each test case
   test.beforeEach(async ({ registrationPage: page }) => {
     registrationPage = page;
     await registrationPage.navigateToRegistrationPage();
   });
 
-  // Teardown executed after each test case
-  test.afterEach(async () => {
-    // Add any cleanup logic if needed
-  });
-
-  // Teardown executed after test suite
-  test.afterAll(async () => {
-    // Add any cleanup logic if needed
-  });
-
-  test.describe('Check various scenarios', () => {
+    test.describe('Check various scenarios', () => {
     test('Validate registration form is present', async () => {
       await registrationPage.verifySignUpTitle(registrationData.signUpTitle);
       await registrationPage.verifySignUpButtonEnabled();
@@ -64,7 +53,7 @@ test.describe('Check functionalities of a registration form', () => {
         registrationUserData.lastName,
         registrationUserData.username,
         registrationUserData.password,
-        registrationUserData.password // Assuming confirm password is the same as password
+        registrationUserData.password 
       );
     
       // Wait for login page to load

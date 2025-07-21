@@ -14,7 +14,7 @@ test.describe('Validation of transaction present', () => {
   let homePage: HomePage;
   let personalPage: PersonalPage;
 
-  // Setup executed before each test case
+ 
   test.beforeEach(async ({ loginPage: login, homePage: home, personalPage: personal }) => {
     loginPage = login;
     homePage = home;

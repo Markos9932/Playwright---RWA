@@ -13,7 +13,7 @@ test.describe('Check modifications to account information', () => {
   let firstNameChanged: string;
   let lastNameChanged: string;
 
-  // Setup executed before each test case
+  
   test.beforeEach(async ({ loginPage: login, homePage: home, myAccountPage: myAccount }) => {
     loginPage = login;
     homePage = home;

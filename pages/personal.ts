@@ -9,7 +9,7 @@ export default class PersonalPage extends Commands {
   private transactionContainerAmount = '//span[@class="MuiTypography-root MuiTypography-body1 TransactionAmount-amountNegative css-1tlfly5-MuiTypography-root"]'
 
   constructor(page: Page) {
-    super(page); // Prosleđivanje Page objekta klasi Commands
+    super(page); 
   }
 
   async personalPageLoadingResponse(): Promise<void> {

@@ -17,7 +17,7 @@ export default class HomePage extends Commands {
   private newTransaction = '[data-test="nav-top-new-transaction"]';
 
   constructor(page: Page) {
-    super(page); // Prosleđivanje Page objekta klasi Commands
+    super(page); 
   }
 
   async homePageLoadingResponse(): Promise<void> {
